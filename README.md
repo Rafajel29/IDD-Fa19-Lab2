@@ -94,6 +94,8 @@ https://youtu.be/rNx_2c0eS5Y
 ## Part D. Make your Arduino sing!
 
 **a. How would you change the code to make the song play twice as fast?**
+
+You would half the value of the noteDuration variable. Changing it from ``` int noteDuration = 1000 ``` to ``` int noteDuration = 500 ```
  
 **b. What song is playing?**
 
