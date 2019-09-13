@@ -37,8 +37,8 @@ Image of LCD display displaying  name and surname.
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
-The following is my lowly Multimeter code. It displays the Analog read value that is between 0 and 1023 witch is between 0V and 5V.
-'''
+The following is my lowly Multimeter code. It displays the Analog read value that is between 0 and 1023 witch is between 0V and 5V. The .ino file is included in my lab repo in the code folder.
+```
 #include <LiquidCrystal.h>
 
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
@@ -79,7 +79,7 @@ void loop() {
   lcd.clear();
   
 }
-'''
+```
 
 
 ## Part C. Using a time-based digital sensor
