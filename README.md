@@ -99,6 +99,8 @@ You would half the value of the noteDuration variable. Changing it from ``` int 
  
 **b. What song is playing?**
 
+The song playing is the star wars theme song.
+
 
 ## Part E. Make your own timer
 
