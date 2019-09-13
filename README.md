@@ -95,7 +95,7 @@ https://youtu.be/rNx_2c0eS5Y
 
 **a. How would you change the code to make the song play twice as fast?**
 
-You would half the value of the noteDuration variable. Changing it from ``` int noteDuration = 1000 ``` to ``` int noteDuration = 500 ```
+You would half the value of the noteDuration variable and half the value of the pauseBetweenNotes. This will make that every note is played in half the time and the pauses is half the length making the song play twice as fast . Changing it from ``` int noteDuration = 1000 ``` to ``` int noteDuration = 500 ``` and ``` pauseBetweenNotes = noteDuration * 1.3; ``` to ``` pauseBetweenNotes = noteDuration * 0.65; ```
  
 **b. What song is playing?**
 
