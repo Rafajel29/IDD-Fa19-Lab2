@@ -87,7 +87,7 @@ Image of the above code running with the lcd display showing the voltage.
 
 ## Part C. Using a time-based digital sensor
 
-Video of Rotary Encoder Working
+Video of Rotary Encoder Working : 
 https://youtu.be/rNx_2c0eS5Y
 
 
