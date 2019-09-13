@@ -87,7 +87,8 @@ Image of the above code running with the lcd display showing the voltage.
 
 ## Part C. Using a time-based digital sensor
 
-**Upload a video of your working rotary encoder here.**
+Video of Rotary Encoder Working
+https://youtu.be/rNx_2c0eS5Y
 
 
 ## Part D. Make your Arduino sing!
