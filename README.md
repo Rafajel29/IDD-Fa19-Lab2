@@ -81,6 +81,9 @@ void loop() {
 }
 ```
 
+Image of the above code running with the lcd display showing the voltage.
+![](Images/20190913_094744.jpg)
+
 
 ## Part C. Using a time-based digital sensor
 
