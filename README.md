@@ -106,7 +106,9 @@ The song playing is the star wars theme song.
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
 
-The following is a link to a video of my timer project: https://youtu.be/vb7pPaXnyBM
+For the make your own timer part of the lab I decided to make a chess clock. It is a clock with 2 timers and 3 buttons and a speaker. Each player gets a set amount of time in this case I gave everyone 10 seconds because I didn't want to wait to long. Then when the one player finishes his turn he presses his button and the other players time starts to run down and visa versa. The middle button can be pressed to reset the clock. When a players timer reaches 0 the speaker plays a tune to inform both players that one has lost based on having no time left.
+
+The following is a link to a video of my timer project: https://youtu.be/HAB-d9v-WmI
 
 The following is my code for the project. I have also uploaded the .ino file in the code folder of my lab2 repo.
 ```
