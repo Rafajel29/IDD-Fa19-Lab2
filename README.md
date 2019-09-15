@@ -23,7 +23,7 @@ The display is powered by +5V
 **b. What voltage level do you need to power the display backlight?**
 
 The backlight is powered by +3.3V for this lab. But it is possible to use +5V to power the LCD as idicated on its datasheet.
-![](Images/LCD_pinout.PNG)
+![](Images/lcd_pinout.PNG)
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
 
