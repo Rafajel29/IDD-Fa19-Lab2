@@ -22,23 +22,23 @@ The display is powered by +5V
 
 **b. What voltage level do you need to power the display backlight?**
 
-The backlight is powered by +3.3V for this lab. But it is possible to use +5V to power the LCD as idicated on its datasheet.
+The backlight is powered by +3.3V for this lab. But it is possible to use +5V to power the LCD as indicated on its datasheet.
 ![](Images/lcd_pinout.PNG)
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
 
-I accidently conected DB4 to IO6. Then when I switched DB4 to IO5 the LCD display worked perfectly.
+I accidently connected DB4 to IO6. Then when I switched DB4 to IO5 the LCD display worked perfectly.
 
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
 
 Changed ```lcd.print("hello, world!");``` to ```lcd.print("FJ Fourie");```
 
-Image of LCD display displaying  name and surname.
+Image of LCD display displaying name and surname.
 ![](Images/20190912_104123.jpg)
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
-The following is my lowly Multimeter code. It displays the Analog read value that is between 0 and 1023 witch is between 0V and 5V. The .ino file is included in my lab repo in the code folder.
+The following is my lowly Multimeter code. It displays the Analog read value that is between 0 and 1023 which is between 0V and 5V. The .ino file is included in my lab repo in the code folder.
 ```
 #include <LiquidCrystal.h>
 
@@ -82,13 +82,13 @@ void loop() {
 }
 ```
 
-Image of the above code running with the lcd display showing the voltage.
+Image of the above code running with the LCD display showing the voltage.
 ![](Images/20190913_094744.jpg)
 
 
 ## Part C. Using a time-based digital sensor
 
-Video of Rotary Encoder Working : 
+Video of Rotary Encoder Working: 
 https://youtu.be/rNx_2c0eS5Y
 
 
@@ -96,18 +96,18 @@ https://youtu.be/rNx_2c0eS5Y
 
 **a. How would you change the code to make the song play twice as fast?**
 
-You would half the value of the noteDuration variable and half the value of the pauseBetweenNotes. This will make that every note is played in half the time and the pauses is half the length making the song play twice as fast . Changing it from ``` int noteDuration = 1000 ``` to ``` int noteDuration = 500 ``` and ``` pauseBetweenNotes = noteDuration * 1.3; ``` to ``` pauseBetweenNotes = noteDuration * 0.65; ```
+You would half the value of the noteDuration variable and half the value of the pauseBetweenNotes. This will make that every note is played in half the time and the pauses is half the length making the song play twice as fast. Changing it from ``` int noteDuration = 1000 ``` to ``` int noteDuration = 500 ``` and ``` pauseBetweenNotes = noteDuration * 1.3; ``` to ``` pauseBetweenNotes = noteDuration * 0.65; ```
  
 **b. What song is playing?**
 
-The song playing is the star wars theme song.
+The song playing is the Star Wars theme song.
 
 
 ## Part E. Make your own timer
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
 
-For the make your own timer part of the lab I decided to make a chess clock. It is a clock with 2 timers and 3 buttons and a speaker. Each player gets a set amount of time in this case I gave everyone 10 seconds because I didn't want to wait to long. Then when the one player finishes his turn he presses his button and the other players time starts to run down and visa versa. The middle button can be pressed to reset the clock. When a players timer reaches 0 the speaker plays a tune to inform both players that one has lost based on having no time left.
+For the make your own timer part of the lab I decided to make a chess clock. It is a clock with 2 timers and 3 buttons and a speaker. Each player gets a set amount of time in this case I gave everyone 10 seconds because I didn't want to wait too long. Then when the one player finishes his turn, he presses his button and the other players time starts to run down and vice versa. The middle button can be pressed to reset the clock. When a player’s timer reaches 0 the speaker plays a tune to inform both players that one has lost based on having no time left.
 
 The following is a link to a video of my timer project: https://youtu.be/HAB-d9v-WmI
 
